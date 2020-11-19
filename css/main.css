@@ -35,7 +35,6 @@ html {
 }
 
 .content {
-    /* background-color: #8ad2fd88; */
     background-color: #00000055;
     padding: 1rem;
 }
@@ -50,6 +49,11 @@ html {
     background-size: contain;
     border: 2px black;
     border-style: solid none;
+}
+
+.requirements-list li {
+    font-size: 1.3rem;
+    margin: 1em;
 }
 
 .team-section {
