@@ -14,7 +14,8 @@
         <a class="navbar-brand" href="index.html">
             <img class="navbar-brand-logo" src="images/main-logo-nobg.png" alt="All Ears logo" width="30" height="30" />&nbsp;All Ears
         </a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
@@ -44,17 +45,49 @@
         </div>
     </nav>
 
-    <div class="container-fluid mt-3">
+    <div class="container mt-3">
         <div class="row">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-7">
-                <h1 class="font-weight-bold">Solution</h1>
+            <div class="col">
+                <h1 class="display-3">Solution</h1>
                 <hr>
-                <p>Under construction</p>
+                <p>
+                    Working alongside Dr. Doughty and Ms. Keany, we have envisioned a cross-platform application that can be used as an
+                    educational tool in African forest elephant conservation. Our application, which will be available on Android, iOS, and
+                    Web, will provide Dr. Doughty and Ms. Keany the platform that they need to share educational information about the
+                    elephants, elephant poaching incidents, and their environmental impact, as well as providing a way for the public to
+                    take action.
+                </p>
+                <h2>Poaching Numbers</h2>
+                <p>
+                    Our application will show current and historical elephant poaching incidents in the central African rainforest via an
+                    interactive map.
+                </p>
+                <h2>Environmental Impact</h2>
+                <p>
+                    Every time an elephant is poached, its beneficial effects on the forest are lost. This results in a less healthy
+                    rainforest which cannot absorb as much CO<sub>2</sub> from the atmosphere. To illustrate this, our application will
+                    include a carbon emissions calculator that will relate the rainforests CO<sub>2</sub> absorption capacity through saved
+                    elephant lives to the carbon output by an airplane flight.
+                </p>
+                <h2>Public Action</h2>
+                <p>
+                    Our app will at all times have easily accessible donation links to established anti-poaching organizations so that our
+                    users can get involved. The app can suggest donation amounts in order to save elephants.
+                </p>
+                <h2>System Architecture</h2>
+                <figure>
+                    <img src="images/system-diagram.png" alt="All Ears System Diagram">
+                    <figcaption class="figure-caption">A diagram of our application architecture.</figcaption>
+                </figure>
+                <p>
+                    Displayed above is a diagram showing the architecture of our solution. We have separated our application into the two
+                    main parts: the backend and the frontend. The backend will be the immediate data source for the application. It will
+                    retrieve forest elephant poaching data from the MIKE database, an established database tracking illegal elephant
+                    killings around the world. The frontend will query the backend for that data and use it to create the tools described
+                    above.
+                </p>
             </div>
         </div>
-
-
     </div>
 
     <script src="js/jquery-3.5.1.slim.min.js"></script>
