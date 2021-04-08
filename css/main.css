@@ -1,74 +1,74 @@
 @font-face {
-    font-family: "Source Sans Pro";
-    src: url("../fonts/SourceSansPro-Regular.ttf");
+  font-family: "Source Sans Pro";
+  src: url("../fonts/SourceSansPro-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Raleway";
-    src: url("../fonts/Raleway-Regular.ttf");
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/OpenSans-Regular.ttf");
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 body,
 html {
-    height: 100%;
+  height: 100%;
 }
 
 * {
-    font-family: "Open Sans";
+  font-family: "Open Sans";
 }
 
 .elephant-bg {
-    background-image: url("../images/forest-elephant-photo.png");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background-image: url("../images/forest-elephant-photo.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .logo-tile {
-    max-height: 9rem;
+  max-height: 9rem;
 }
 
 .content {
-    background-color: #00000055;
-    padding: 1rem;
+  background-color: #00000055;
+  padding: 1rem;
 }
 
 .about-banner {
-    width: 100%;
-    background-image: url("../images/members-banner.png");
-    height: 200px;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    border: 2px black;
-    border-style: solid none;
+  width: 100%;
+  background-image: url("../images/members-banner.png");
+  height: 200px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 2px black;
+  border-style: solid none;
 }
 
 .requirements-list li {
-    font-size: 1.3rem;
-    margin: 1em;
+  font-size: 1.3rem;
+  margin: 1em;
 }
 
 .team-section {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
 }
 
 .mentor-section {
-    background-color: lavender;
+  background-color: lavender;
 }
 
 .sponsors-section {
-    background-color: lavenderblush;
+  background-color: lavenderblush;
 }
 
 .about-section {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
