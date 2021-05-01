@@ -194,6 +194,16 @@
                 aria-controls="capstone-presentation-section"
                 >UGRADS Capstone Presentation</a
               >
+              <a
+                class="section-button list-group-item list-group-item-action collapsed"
+                onclick="handleDocumentAccordion(event)"
+                data-toggle="collapse"
+                href="#final-report-section"
+                role="button"
+                aria-expanded="false"
+                aria-controls="final-report-section"
+                >Final Report</a
+              >
               <!-- <a class="section-button list-group-item list-group-item-action collapsed" onclick="handleDocumentAccordion(event)" data-toggle="collapse" href="#lamb-sauce-section" role="button" aria-expanded="false" aria-controls="lamb-sauce-section">WHERE'S THE LAMB SAUCE?!</a> -->
             </ul>
           </div>
@@ -406,6 +416,24 @@
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div
+              class="document-section collapse"
+              id="final-report-section"
+              data-parent="#section-display"
+            >
+              <h2>Final Report</h2>
+              <p>
+                A report describing our entire project and what we did to plan
+                and complete it.
+              </p>
+              <div class="embed-responsive embed-responsive-4by3">
+                <iframe
+                  class="embed-responsive-item pb-4"
+                  src="documents/Final Report.pdf"
+                  frameborder="0"
                 ></iframe>
               </div>
             </div>
